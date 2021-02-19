@@ -100,6 +100,7 @@ section {
 /* about */
 .about-me {
   position: relative;
+  text-align: center;
 }
 
 /* coursework */
@@ -107,6 +108,7 @@ section {
   position: relative;
   background-color: #f3efe0;
   background-size: cover;
+  text-align: center;
 }
 
 /* projects */
@@ -114,6 +116,7 @@ section {
   position: relative;
   background-color: #f3efe0;
   background-size: cover;
+  text-align: center;
 }
 
 /* contact */
@@ -122,4 +125,5 @@ section {
   background-color: #434242;
   background-size: cover;
   color: var(--clr-light);
+  text-align: center;
 }
