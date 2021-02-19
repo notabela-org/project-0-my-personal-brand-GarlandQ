@@ -19,6 +19,8 @@
   --fs-h2: 2.25rem;
   --fs-h3: 1.5rem;
   --fs-body: 1rem;
+
+  --bs 0.25em 0.25em 0.75em rgba(0,0,0,0.25):
 }
 
 @media (min-width: 600px) {
@@ -62,6 +64,16 @@ h2 {
 }
 h3 {
   font-size: var(--fs-h3);
+}
+
+.nia_logo {
+  display: block;
+  min-width: 50px;
+  max-width: 100px;
+  width: min-content;
+  margin: 0 auto;
+  border: 0;
+  box-shadow: var(--bs);
 }
 
 section {
@@ -201,7 +213,7 @@ header {
 /* coursework */
 .course-work {
   position: relative;
-  background-color: #f3efe0;
+  background-color: #ccd6ec;
   background-size: cover;
   text-align: center;
 }
@@ -252,4 +264,19 @@ header {
 
 .social_link {
   padding: 0.5em;
+}
+
+.section_title--work_experience {
+  text-align: center;
+}
+
+.section_subtitle--work {
+  position: relative;
+  padding: 0em;
+}
+
+.work-experience {
+  position: relative;
+  background-color: #ece2cc;
+  background-size: cover;
 }
