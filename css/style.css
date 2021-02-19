@@ -21,7 +21,7 @@
   --fs-body: 1rem;
 }
 
-@media (min-width: 768px) {
+@media (min-width: 600px) {
   :root {
     --fs-h1: 4rem;
     --fs-h2: 3.25rem;
@@ -39,18 +39,19 @@ body {
   line-height: 1.5;
 }
 
+img {
+  display: block;
+  max-width: 100%;
+}
+
 strong {
   font-weight: var(--fw-bold);
 }
 
 h1,
-h2 {
-  line-height: 1.5;
-  margin: 0;
-}
-
+h2,
 h3 {
-  line-height: 1.2;
+  line-height: 1;
   margin: 0;
 }
 
@@ -64,11 +65,61 @@ h3 {
   font-size: var(--fs-h3);
 }
 
+section {
+  padding: 5em 2em;
+}
+
 .section_title {
-  margin-bottom: 0.5em;
+  margin-bottom: 0.25em;
 }
 
 .section_subtitle {
   margin: 0;
   font-size: var(--fs-h3);
+}
+
+.section_subtitle--home {
+  font-family: var(--ff-secondary);
+  margin-bottom: 1em;
+  text-align: center;
+}
+
+/* home */
+.section_title--home {
+  display: block;
+  text-align: center;
+}
+
+.homepage {
+  position: relative;
+  background-color: var(--clr-dark);
+  background-size: cover;
+  color: var(--clr-light);
+}
+
+/* about */
+.about-me {
+  position: relative;
+}
+
+/* coursework */
+.course-work {
+  position: relative;
+  background-color: #f3efe0;
+  background-size: cover;
+}
+
+/* projects */
+.programming-work {
+  position: relative;
+  background-color: #f3efe0;
+  background-size: cover;
+}
+
+/* contact */
+.contact-info {
+  position: relative;
+  background-color: #434242;
+  background-size: cover;
+  color: var(--clr-light);
 }
